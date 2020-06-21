@@ -1,0 +1,33 @@
+.srch {
+  text-align: center;
+}
+.s-header {
+  margin-bottom: 0;
+  color: #000000;
+  font-size: 3rem;
+  font-family: 'Piedra', cursive;
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+.s-input {
+  width: 60%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  border: 3px solid rgba(39, 39, 39, 0.623);
+  transition: 0.5s;
+  outline: none;
+}
+
+.s-input:focus {
+  border: 3px solid rgb(0, 0, 0);
+}
+.s-input,
+.s-input::placeholder {
+  color: #242323;
+  font-size: 0.8rem;
+  font-family: sans-serif;
+  font-weight: 900;
+}
+#searching-val {
+  color: rgb(17, 0, 255);
+}
